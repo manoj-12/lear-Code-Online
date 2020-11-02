@@ -1,0 +1,101 @@
+
+
+
+.headline{
+    /* font-style: oblique; */
+    text-transform: capitalize;
+    /* text-transform: uppercase; */
+    font-family: emoji;
+    /* text-align: center; */
+}
+
+
+.card{
+    background-color: mintcream !important;
+    border: 1px dashed red !important;
+    transition: all 0.3s;
+    overflow: hidden;
+    
+    }
+.card:hover{
+   
+    background: white !important;
+    box-shadow: 0  2px 20px lightgrey
+}
+
+.clsname{
+    font-style: oblique;
+    text-transform: capitalize;
+    text-transform: uppercase;
+    font-family: emoji;
+    text-align: center;
+    text-transform: sub;
+    /* overflow: hidden; */
+   
+}
+.supclass{
+    text-transform: lowercase;
+}
+
+.button{
+    font-style: oblique;
+    text-transform: capitalize;
+    text-transform: uppercase;
+    font-family: emoji;
+    /* text-align: center; */
+   
+   
+    
+}
+
+.button a{
+    color: white !important;
+    text-decoration: none !important;
+    font-size: 13px;
+    /* overflow: hidden; */
+}
+
+/* subject list page */
+
+.subname{
+    font-style: oblique;
+    text-transform: capitalize;
+    text-transform: uppercase;
+    font-family: emoji;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* online test */
+
+
+.mainrow{
+    border: 1px solid lightblue;
+    box-shadow: 0px 0px 5px lightblue;
+    border-bottom: 1px solid red;
+    
+}
+
+.question{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+    border-radius: 10%;
+    border: 1px solid red;
+}
+
+.optn{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    border: 1px solid blue;
+    border-radius: 20px;
+}
+
+.submitbtn{
+    width: 300px;
+    margin: 20px;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    font-family: emoji; 
+}
