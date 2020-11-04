@@ -1,6 +1,13 @@
 /* nav design start here manoj */
 
-
+.navbar-brand{
+    font-variant: small-caps;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: emoji;
+    color: blueviolet !important;
+    
+}
 .searchbar{
     position: relative;
     border: 1px solid blueviolet !important;
@@ -44,7 +51,13 @@
     border: 1px solid red;
     box-shadow: 0px 5px 10px lightblue;
     background: whitesmoke;
-    border-radius: 20px 0px 20px 0px ;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.box:hover{
+    border: 1px solid blueviolet;
+    box-shadow: 0px 0px 10px lightgray;
+    transition: 0.3s;
 }
 
 .icon{
@@ -54,6 +67,7 @@
 .icon img{
     text-align: center;
     margin: 10px;
+    /* outline: 1px solid red; */
     /* border: 10px solid white; */
     /* box-sizing: border-box; */
     /* border-radius: 50%; */
@@ -63,10 +77,51 @@
 .heading{
     text-align: center;
     color: blueviolet;
+    color: rgba(50, 150, 50, 0.5);
+    text-transform: capitalize;
+    font-style: italic;
+    font-family: emoji;
+    cursor: pointer;
+}
+.box:hover>.heading{
+    color: red;
+    
 }
 
 .paragraph{
     text-align: justify;
     padding: 10px;
-    color: blueviolet;
+    /* color: blueviolet; */
+    cursor: pointer;
+}
+/* our feature courses */
+.ourfeature{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 0px 0px ;
+    text-transform: uppercase;
+    color: rgba(199, 169, 228, 0.7);
+    font-style: italic;
+    font-family: emoji;
+}
+
+.ourfeatureicon{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: royalblue;
+    font-style: italic;
+    font-family: emoji;
+    text-align: center;
+}
+
+.ourfeature h1{
+    text-align: center;
+    color: royalblue;
+}
+
+
+.images img{
+    height: 200px;
+    width: 500px;
 }
