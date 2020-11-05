@@ -89,7 +89,10 @@
 }
 
 .paragraph{
-    text-align: justify;
+    /* text-align: center; */
+    text-align: start;
+    /* text-align: justify; */
+    /* letter-spacing: 0px; */
     padding: 10px;
     /* color: blueviolet; */
     cursor: pointer;
@@ -115,6 +118,10 @@
     text-align: center;
 }
 
+.card{
+    margin: 10px;
+}
+
 .ourfeature h1{
     text-align: center;
     color: royalblue;
@@ -124,4 +131,15 @@
 .images img{
     height: 200px;
     width: 500px;
+}
+
+.coursename{
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+.coursename h1{
+    font-size: 15px;
+    padding: 20px 0px 0px 0px;
 }
