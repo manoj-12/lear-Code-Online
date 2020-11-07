@@ -1,5 +1,10 @@
 /* nav design start here manoj */
 
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
 .navbar-brand{
     font-variant: small-caps;
     font-weight: bolder;
@@ -25,9 +30,7 @@
     border: 1px solid blueviolet !important;
     border-radius: 5px; 
     text-transform: uppercase;
-    /* font-size: 12px; */
     margin: 10px;
-    /* text-align: justify; */
     text-align: center;
     color: blueviolet !important;
 }
@@ -35,7 +38,6 @@
 .nav-link:hover{
     background: blueviolet;
     color: white !important;
-    /* border: 1px solid red !important; */
 }
 
 /* nav design end here */
@@ -67,11 +69,6 @@
 .icon img{
     text-align: center;
     margin: 10px;
-    /* outline: 1px solid red; */
-    /* border: 10px solid white; */
-    /* box-sizing: border-box; */
-    /* border-radius: 50%; */
-    /* width: 100px; */
 }
 
 .heading{
@@ -89,15 +86,13 @@
 }
 
 .paragraph{
-    /* text-align: center; */
     text-align: start;
-    /* text-align: justify; */
-    /* letter-spacing: 0px; */
     padding: 10px;
-    /* color: blueviolet; */
     cursor: pointer;
 }
 /* our feature courses */
+
+
 .ourfeature{
     display: flex;
     justify-content: center;
@@ -142,4 +137,115 @@
 .coursename h1{
     font-size: 15px;
     padding: 20px 0px 0px 0px;
+}
+
+/* blog  section  */
+
+
+/* .blog_section{
+    background-image: url(../images/blog.png);
+    background-size: cover;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    margin-top: -2000px;
+} */
+
+.bloghead{
+    display: flex;
+    justify-content: center;
+}
+
+.bloghead h1{
+    font-family: emoji;
+    text-transform: uppercase;
+    font-variant: small-caps;
+    font-style: italic;
+    color: royalblue;
+}
+
+.mainblog{
+    border: 1px dashed rgb(155, 55, 99, 0.5);
+    margin: 10px;
+    transition: 0.3s;
+}
+.mainblog:hover{
+    box-shadow: 0px 10px 20px  lightgray;
+}
+
+.blogheading{
+    font-size: small;
+    text-align: center;
+}
+
+.blog:hover>.blogheading h1{
+    color: royalblue;
+}
+
+.blogheading h1{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+
+.blogpara{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    padding: 0px  10px;
+    text-align: justify;
+    
+}
+
+.readmore{
+    text-align: center !important;
+    padding: 20px 0px 20px 0px;
+    word-spacing: 2px;
+   
+}
+.readmore a{
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: capitalize;
+    display: block;
+}
+.blog:hover>.readmore a{
+    color: black;
+}
+
+
+/* student say blod */
+
+.mainitem{
+    border: 1px dashed red;
+}
+
+.maincard{
+    border:1px dashed darkred !important;
+    transition: 0.3s;
+}
+
+.card:hover{
+    box-shadow: 0px 10px 20px  lightgray;
+}
+
+.card-name{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: emoji;
+    padding: 10px 0px 0px 0px;
+}
+
+.cardpara{
+    text-align: center;
+    padding: 10px;
+    
+}
+.cardrow{
+    display: flex;
+    justify-content: center;
 }
