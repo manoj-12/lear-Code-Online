@@ -249,3 +249,47 @@ body{
     display: flex;
     justify-content: center;
 }
+
+/* footer section */
+
+.fotter-section{
+    background: url(../images/footer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.contact{
+    color: white;
+    text-transform: capitalize;
+    font-family: emoji;
+    /* font-style: italic; */
+}
+
+.contact-detail{
+    color: white;
+    text-transform: capitalize;
+    /* font-family: emoji; */
+}
+
+
+.company{
+    color: white;
+    text-transform: capitalize;
+    font-family: emoji;
+}
+
+.company-detail{
+    color: white;
+    text-transform: capitalize;
+}
+
+.social-media{
+    color: white;
+    text-transform: capitalize;
+    font-family: emoji;
+}
+
+.social-detail{
+
+}
