@@ -7,8 +7,9 @@ body{
 }
 
 p{
-    /* margin: 0px; */
+    margin: 0px;
 }
+
 
 .navbar-brand{
     font-variant: small-caps;
@@ -50,9 +51,6 @@ p{
 
 /* institute feature design start here manoj */
 
-.section{
-
-}
 
 .box{
     border: 1px solid red;
@@ -204,7 +202,7 @@ p{
     /* padding:10px; */
     margin: 10px;
     text-align: justify;
-    /* height: 100px; */
+    
     
 }
 
