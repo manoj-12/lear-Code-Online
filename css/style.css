@@ -197,9 +197,10 @@ body{
     display: -webkit-box;
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
-    padding:10px;
+    /* padding:10px; */
+    margin: 10px;
     text-align: center;
-    height: 100px;
+    /* height: 100px; */
     
 }
 
