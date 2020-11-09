@@ -186,22 +186,19 @@ body{
     font-size: 20px;
     text-align: center;
     padding: 10px 0px 0px 0px;
-    /* display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;  
-    overflow: hidden;
-    text-overflow: ellipsis; */
+
 }
 
 
 
 .blogpara{
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;  
+    text-overflow: ellipsis;
     overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
     padding: 0px  10px;
-    text-align: justify;
+    text-align: center;
     
 }
 
