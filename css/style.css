@@ -6,6 +6,10 @@ body{
     width: auto;
 }
 
+p{
+    margin: 0px;
+}
+
 .navbar-brand{
     font-variant: small-caps;
     font-weight: bolder;
@@ -199,7 +203,7 @@ body{
     -webkit-box-orient: vertical;
     /* padding:10px; */
     margin: 10px;
-    text-align: center;
+    text-align: justify;
     /* height: 100px; */
     
 }
