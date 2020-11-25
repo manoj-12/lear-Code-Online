@@ -202,6 +202,9 @@ p{
     /* padding:10px; */
     margin: 10px;
     text-align: justify;
+    /* display: -moz-box;
+    -moz-line-clamp: 4;
+    -moz-box-orient: vertical; */
     
     
 }
@@ -298,3 +301,19 @@ p{
 .social-detail{
 
 }
+
+
+/* blog */
+
+.bgsection{
+    /* background: red;  */
+    background-image: linear-gradient(royalblue,rgba(255,0,0,0));
+    height: 400px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    padding-top: 15%;
+    color: white;
+} 
