@@ -337,17 +337,22 @@ p{
     display: block;
   }
 
+.dropd{
+    padding: 10px 100px 0px 50px;
+   
+}
 
+.dropbtn{
+    box-sizing: border-box;
+    width: 200px;
+    height: 50px;
+    background: white;
+}
+.dropdown-content {
+   width: 200px;
+}
 
-  .mannn{
-      display: flex;
-      justify-content: right;
-  }
-
-  .mjjj{
-      display: inline;
-  }
-
-  .jjjm{
-    display: inline-block;
-  }
+.dropdown-content a{
+    display: block;
+    margin: auto;
+}
