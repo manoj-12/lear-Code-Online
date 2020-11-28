@@ -375,9 +375,16 @@ p{
     text-decoration-line: none;
    
 }
-li{
-    list-style-type: none;
+.plycoursename{
+    background: royalblue;
+    margin-top: 0px;
 }
-
+.playlistbox{
+    /* position: absolute; */
+    border: 2px solid red;
+    height: 800px;
+    overflow-y:scroll;
+    margin: 2%;
+}
 
  /* video section end  */
