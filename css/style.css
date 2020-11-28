@@ -387,4 +387,51 @@ p{
     margin: 2%;
 }
 
+.playlist iframe{
+    border: 2px solid royalblue;
+    width: 100%;
+}
+
+@media screen and (max-width: 991px) {
+    .playlist iframe{
+        width: 100%;
+        height: 500px;
+    }
+  }
+
+  @media screen and (max-width: 951px) {
+    .playlist iframe{
+        width: 100%;
+        height: 380px;
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    .playlist iframe{
+        width: 100%;
+        height: 300px;
+    }
+  }
+
+  @media screen and (max-width: 556px) {
+    .playlist iframe{
+        width: 100%;
+        height: 200px;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .playlist iframe{
+        width: 100%;
+        height: 200px;
+    }
+  }
+
+  /* @media screen and (max-width: 991px) {
+    .playlist iframe{
+        width: 100%;
+        height: 150px;
+    }
+  } */
+
  /* video section end  */
