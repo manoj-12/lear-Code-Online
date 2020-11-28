@@ -134,8 +134,9 @@ p{
 .coursename{
     text-align: center;
     text-transform: uppercase;
-    
 }
+
+
 
 .coursename h1{
     font-size: 15px;
@@ -144,6 +145,7 @@ p{
 
 .coursename a{
     text-decoration-line: none;
+    color: black;
 }
 
 /* blog  section  */
@@ -435,3 +437,71 @@ p{
   } */
 
  /* video section end  */
+
+/* login form start here */
+ .loginform-section{
+     background-image: url(../images/formbg.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+ }
+
+
+ .formsection{
+    margin: 10px 0px;
+    background-size: cover;
+    height:800px;
+    padding-top: 150px;
+ }
+
+ .fromrow{
+    justify-content: center;
+    display: flex;
+}
+.loginheading{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: emoji;
+   color: white;
+}
+#inputEmail4{
+    border-bottom: 2px solid royalblue !important;
+    background-color: lightblue;
+    
+}
+
+#inputEmail4:focus{
+    border-bottom: 2px solid white !important;
+    background-color: lightblue;
+}
+
+#inputPassword4{
+    border-bottom: 2px solid royalblue !important;
+    background-color: lightblue;
+    
+}
+
+#inputPassword4:focus{
+    border-bottom: 2px solid white !important;
+    background-color: lightblue;
+}
+
+.login{
+    position: relative;
+    left: 0;
+    width: 45%;
+}
+
+.register{
+position: absolute;
+right: 0;
+width: 45%;
+}
+
+.register a{
+   text-decoration: none;
+   color: white;
+}
+
+/* Login Form End here */
+
+/* Register Form Start Here */
