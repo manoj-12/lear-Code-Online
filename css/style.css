@@ -33,7 +33,12 @@ p{
 } */
 
 .nav-link{
-    border: 1px solid blueviolet !important;
+    /* border: ; */
+    /* border:red black 2px solid !important; */
+    border-top:1px solid blueviolet !important;
+    border-left:1px solid blue !important;
+    border-right:1px solid rgb(174, 127, 218) !important;
+    border-bottom:1px solid rgb(196, 168, 223) !important;
     border-radius: 5px; 
     text-transform: uppercase;
     margin: 10px;
@@ -42,7 +47,8 @@ p{
 }
 
 .nav-link:hover{
-    background: blueviolet;
+    /* background: blueviolet; */
+    background-image: linear-gradient(to left,blueviolet ,blue);
     color: white !important;
 }
 
@@ -76,7 +82,7 @@ p{
 
 .heading{
     text-align: center;
-    color: blueviolet;
+    /* color: blueviolet; */
     color: rgba(50, 150, 50, 0.5);
     text-transform: capitalize;
     font-style: italic;
@@ -285,6 +291,9 @@ p{
     text-transform: capitalize;
     /* font-family: emoji; */
 }
+
+
+
 
 
 .company{
